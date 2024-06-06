@@ -1,0 +1,23 @@
+body {
+  background-image: url("https://th.bing.com/th/id/R.ea4b4096a81f31cfc4e7639712d86644?rik=hh0fdqJDR2JDUw&riu=http%3a%2f%2fmymodernmet.com%2fwp%2fwp-content%2fuploads%2farchive%2fyqKKVwBXV4bI2PQYlX4M_1082076177.gif&ehk=DAkgT9o4uKlMbKhQ2q6OqNxMqjRWhtShtlKqj2VUOmo%3d&risl=&pid=ImgRaw&r=0");
+  min-height: 100vh;
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid color(srgb #1100ff);
+  border-bottom-color: transparent;
+  box-sizing: border-box;
+  display: inline;
+  animation: rotation is linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
